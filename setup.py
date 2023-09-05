@@ -13,12 +13,8 @@ requires = [
     "tornado>=6.3.2",
     "urllib3>=2.0.4"
 ]
-
-with open("README.md", "r", "utf-8") as f:
-    readme = f.read()
-
-with open("LICENSE", "r", "utf-8") as f:
-    license = f.read()
+readme = open('README.md').read()
+license = open("LICENSE").read()
 
 setup(
     name='zutils',
