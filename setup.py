@@ -18,14 +18,14 @@ license = open("LICENSE").read()
 
 setup(
     name='zutils',
-    version='1.0.0',
+    version='1.0.1',
     description='the utils for me',
     long_description=readme,
     long_description_content_type="text/markdown",
     author='zhouxianggen',
     author_email='zhouxianggen@gmail.com',
     url='https://github.com/zhouxianggen/zutils',
-    packages=["zutils"],
+    packages=["zutils", "zutils/web_service", "zutils/processor"],
     package_dir={"": "src"},
     python_requires=">=3.7",
     install_requires=requires,
